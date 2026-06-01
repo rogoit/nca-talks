@@ -1,33 +1,79 @@
 const path = require("path");
 const fs = require("fs");
+const ejs = require("ejs");
 const HtmlWebpackPlugin = require("html-webpack-plugin");
 const CopyWebpackPlugin = require("copy-webpack-plugin");
 const { CleanWebpackPlugin } = require('clean-webpack-plugin');
 
-const presentationsDir = path.resolve(__dirname, "src/presentations");
-const templates = fs.existsSync(presentationsDir)
-  ? fs.readdirSync(presentationsDir)
-      .filter(file => file.endsWith('.ejs'))
-      .map(file => new HtmlWebpackPlugin({
-        template: path.resolve(presentationsDir, file),
-        filename: file.replace(".ejs", ".html"),
-        chunks: ['presentations', 'vendors'], // Use presentations bundle
-      }))
-  : [];
+const talksData = JSON.parse(
+  fs.readFileSync(path.resolve(__dirname, "src/data/talks.json"), "utf-8")
+);
 
-module.exports = (env, argv) => {
-  const isDev = argv.mode === 'development';
+const presentationTemplate = fs.readFileSync(
+  path.resolve(__dirname, "src/templates/presentation.ejs"),
+  "utf-8"
+);
+
+const startTemplate = fs.readFileSync(
+  path.resolve(__dirname, "src/templates/start.ejs"),
+  "utf-8"
+);
+
+const presentationsDir = path.resolve(__dirname, "src/presentations");
+
+const dataDrivenTalks = talksData.filter(function(t) { return !t.custom; });
+const customTalks = talksData.filter(function(t) { return t.custom; });
+
+var plugins = [
+  new CleanWebpackPlugin(),
+];
+
+dataDrivenTalks.forEach(function(talk) {
+  var html = ejs.render(presentationTemplate, { talk: talk });
+  plugins.push(new HtmlWebpackPlugin({
+    templateContent: html,
+    filename: talk.id + ".html",
+    chunks: ['presentations', 'vendors'],
+  }));
+});
+
+customTalks.forEach(function(talk) {
+  var templatePath = path.resolve(presentationsDir, talk.id + ".ejs");
+  if (fs.existsSync(templatePath)) {
+    plugins.push(new HtmlWebpackPlugin({
+      template: templatePath,
+      filename: talk.id + ".html",
+      chunks: ['presentations', 'vendors'],
+    }));
+  }
+});
+
+plugins.push(new HtmlWebpackPlugin({
+  templateContent: ejs.render(startTemplate, { talks: talksData }),
+  filename: "index.html",
+  chunks: [],
+  inject: false,
+}));
+
+plugins.push(new CopyWebpackPlugin({
+  patterns: [
+    { from: "src/content", to: "content" },
+    { from: "src/CNAME", to: "." },
+  ],
+}));
+
+module.exports = function(env, argv) {
+  var isDev = argv.mode === 'development';
 
   return {
     mode: isDev ? "development" : "production",
     entry: {
-      startpage: "./src/startpage.js",
       presentations: "./src/index.js",
     },
     output: {
       filename: isDev ? "[name].js" : "[name].[contenthash].js",
       path: path.resolve(__dirname, "docs"),
-      clean: true, // Clean the output directory before emit.
+      clean: true,
     },
     devtool: isDev ? 'eval-source-map' : false,
     module: {
@@ -42,21 +88,7 @@ module.exports = (env, argv) => {
         },
       ],
     },
-    plugins: [
-      new CleanWebpackPlugin(),
-      new HtmlWebpackPlugin({
-        template: path.resolve(__dirname, "src/start.ejs"),
-        filename: "index.html",
-        chunks: ['startpage'], // Use lightweight startpage bundle only
-      }),
-      ...templates,
-      new CopyWebpackPlugin({
-        patterns: [
-          { from: "src/content", to: "content" },
-          { from: "src/CNAME", to: "." }
-        ],
-      }),
-    ],
+    plugins: plugins,
     devServer: {
       static: {
         directory: path.resolve(__dirname, "src"),
@@ -81,8 +113,7 @@ module.exports = (env, argv) => {
       },
     },
     performance: {
-        hints: false, // Disable all performance warnings
-    },  
+      hints: false,
+    },
   };
 };
-
