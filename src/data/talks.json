@@ -1,0 +1,211 @@
+[
+  {
+    "id": "dead-internet",
+    "title": "Dead Internet Theorie - A Practical Guide - Never Code Alone",
+    "description": "Dead Internet Theorie - Ein praktischer Leitfaden für Entwickler",
+    "year": 2026,
+    "startPageTitle": "Dead Internet Theorie - A Practical Guide",
+    "startPageDescription": "Ein praktischer Leitfaden zur Dead Internet Theorie - Bots, KI-generierte Inhalte und die Zukunft des Internets verstehen.",
+    "slides": [
+      { "image": "dead-internet/dead-internet-1.jpg" },
+      { "image": "kill-bugs-roland-golla.jpg", "rootImages": true },
+      { "image": "dead-internet/dead-internet-2.jpg" },
+      { "image": "dead-internet/dead-internet-3.jpg" },
+      { "image": "dead-internet/dead-internet-4.jpg" },
+      { "image": "dead-internet/dead-internet-5.jpg" },
+      { "image": "dead-internet/dead-internet-6.jpg" },
+      { "image": "dead-internet/dead-internet-7.jpg" },
+      { "image": "dead-internet/dead-internet-8.jpg" }
+    ],
+    "groups": [[0], [1], [2, 3, 4, 5, 6, 7], [8]]
+  },
+  {
+    "id": "vibe-coding",
+    "title": "Vibe Coding für Profis - Never Code Alone",
+    "description": "Vibe Coding für Profis - Moderne Entwicklungsmethoden und Coding-Kultur",
+    "year": 2025,
+    "startPageTitle": "Vibe Coding für Profis",
+    "startPageDescription": "Moderne Entwicklungsmethoden und Coding-Kultur - Wie professionelles Vibe Coding deine Produktivität steigert.",
+    "slides": [
+      { "image": "vibe-coding/vibe-coding-1.jpg" },
+      { "image": "vibe-coding/vibe-coding-2.jpg" },
+      { "image": "vibe-coding/vibe-coding-3.jpg" },
+      { "image": "vibe-coding/vibe-coding-4.jpg" },
+      { "image": "vibe-coding/vibe-coding-5.jpg" },
+      { "image": "vibe-coding/vibe-coding-6.jpg" },
+      { "image": "vibe-coding/vibe-coding-7.jpg" },
+      { "image": "vibe-coding/vibe-coding-8.jpg" },
+      { "image": "vibe-coding/vibe-coding-9.jpg" },
+      { "image": "vibe-coding/vibe-coding-10.jpg" },
+      { "image": "vibe-coding/vibe-coding-11.jpg" },
+      { "image": "vibe-coding/vibe-coding-12.jpg" }
+    ],
+    "groups": [[0], [1, 2, 3, 4, 5, 6, 7, 8, 9, 10], [11]]
+  },
+  {
+    "id": "ki-karriereboost",
+    "title": "KI als Karriereboost - Never Code Alone",
+    "description": "Künstliche Intelligenz als Karriere-Booster für Developer",
+    "year": 2025,
+    "startPageTitle": "KI als Karriereboost",
+    "startPageDescription": "Künstliche Intelligenz als Karriere-Booster für Entwickler - Wie KI deine berufliche Entwicklung beschleunigt.",
+    "slides": [
+      { "image": "ki-karriereboost/ki-karriereboost-1.jpg" },
+      { "image": "ki-karriereboost/ai-gpt.jpg" },
+      { "image": "ki-karriereboost/ki-karriereboost-2.jpg" },
+      { "image": "ki-karriereboost/ki-karriereboost-3.jpg" },
+      { "image": "ki-karriereboost/ki-karriereboost-4.jpg" },
+      { "image": "ki-karriereboost/ki-karriereboost-5.jpg" },
+      { "image": "ki-karriereboost/ki-karriereboost-6.jpg" },
+      { "image": "ki-karriereboost/ki-karriereboost-7.jpg" },
+      { "image": "ki-karriereboost/ki-karriereboost-8.jpg" },
+      { "image": "ki-karriereboost/ki-karriereboost-9.jpg" }
+    ],
+    "groups": [[0], [1, 2, 3, 4, 5, 6, 7, 8], [9]]
+  },
+  {
+    "id": "ai-keynote",
+    "title": "AI Keynote - KI ist nicht unser Feind, sie ist unsere neue DNA - Das beste Tool aller Zeiten",
+    "description": "Wie AI Tools und künstliche Intelligenz Webdevelopment verändern",
+    "year": 2024,
+    "startPageTitle": "AI Keynote",
+    "startPageDescription": "Künstliche Intelligenz in der Softwareentwicklung - Chancen, Herausforderungen und praktische Anwendungen.",
+    "slides": [
+      { "image": "ai-content/ai-keynote-1.jpg" },
+      { "image": "ai-content/ai-keynote-2.jpg" },
+      { "image": "ai-content/ai-keynote-3.jpg" },
+      { "image": "ai-content/ai-keynote-4.jpg" },
+      { "image": "ai-content/ai-keynote-5.jpg" },
+      { "image": "ai-content/ai-keynote-6.jpg" },
+      { "image": "ai-content/ai-keynote-7.jpg" },
+      { "image": "ai-content/ai-keynote-8.jpg" },
+      { "image": "ai-content/ai-keynote-9.jpg" },
+      { "image": "ai-content/ai-keynote-10.jpg" }
+    ],
+    "groups": [[0], [1], [2], [3], [4], [5], [6], [7], [8], [9]]
+  },
+  {
+    "id": "accessibility-talk",
+    "title": "Webdesign, Content & Accessibility - Wie du mit Silktide deine Webseiten barrierefrei aufs nächste Level bringst",
+    "description": "Barrierefreies Webdesign mit Silktide Chrome Extension verbessern",
+    "year": 2024,
+    "startPageTitle": "Webdesign Accessibility",
+    "startPageDescription": "Barrierefreies Webdesign - Best Practices für zugängliche und inklusive Web-Anwendungen.",
+    "slides": [
+      { "image": "webdesign-accessibility/accessibility-talk-roland-golla-1.jpg" },
+      { "image": "webdesign-accessibility/accessibility-talk-roland-golla-2.jpg" },
+      { "image": "webdesign-accessibility/accessibility-talk-roland-golla-3.jpg" },
+      { "image": "webdesign-accessibility/accessibility-talk-roland-golla-4.jpg" },
+      { "image": "webdesign-accessibility/accessibility-talk-roland-golla-5.jpg" },
+      { "image": "webdesign-accessibility/accessibility-talk-roland-golla-6.jpg" },
+      { "image": "webdesign-accessibility/accessibility-talk-roland-golla-7.jpg" },
+      { "image": "webdesign-accessibility/accessibility-talk-roland-golla-8.jpg" },
+      { "image": "webdesign-accessibility/accessibility-talk-roland-golla-9.jpg" },
+      { "image": "webdesign-accessibility/accessibility-talk-roland-golla-10.jpg" },
+      { "image": "webdesign-accessibility/accessibility-talk-roland-golla-11.jpg" }
+    ],
+    "groups": [[0], [1], [2], [3], [4], [5], [6], [7], [8], [9], [10]]
+  },
+  {
+    "id": "freelancer-startup",
+    "title": "Vom Freelancer zum Unternehmer im Pott: KI nutzen - Teams führen & Tünnes-Tipps trotzen",
+    "description": "",
+    "year": 2023,
+    "startPageTitle": "Freelancer zu Startup",
+    "startPageDescription": "Der Weg vom Solo-Entwickler zum erfolgreichen Startup - Erfahrungen, Lessons Learned und praktische Tipps.",
+    "custom": true
+  },
+  {
+    "id": "vim",
+    "title": "Warum Vim die beste Open Source IDE für Javascript und Cypress.IO ist",
+    "description": "NCA Talk von Cypress.IO Ambassador Roland Golla über Vim als Open Source Editor",
+    "year": 2023,
+    "startPageTitle": "Vim für Entwickler",
+    "startPageDescription": "Produktivitätssteigerung mit Vim - Grundlagen, fortgeschrittene Techniken und Workflows.",
+    "custom": true
+  },
+  {
+    "id": "develop-yourself",
+    "title": "Develop yourself - für Open Source den inneren Schweinehund überwinden",
+    "description": "Bandzitate und viele Songtexte bringen uns eine Fülle von Emotionen. Schmerz, Liebe, Warten, Helden, Teams, Leidenschaft, Scrum, Jira, Kanban, Bildung und vieles mehr - einfach das Leben.",
+    "year": 2022,
+    "startPageTitle": "Develop Yourself",
+    "startPageDescription": "Persönliche Weiterentwicklung als Developer - Kontinuierliches Lernen und Karriereplanung.",
+    "custom": true
+  },
+  {
+    "id": "cypress-io-live-demo",
+    "title": "Cypress.IO Talk über Motivation für Website Testing, Setup und live Demo",
+    "description": "",
+    "year": 2022,
+    "startPageTitle": "Cypress.IO Live Demo",
+    "startPageDescription": "End-to-End Testing mit Cypress - Live-Demo und Best Practices für moderne Web-Applikationen.",
+    "custom": true
+  },
+  {
+    "id": "developer-ein-job-der-rockt",
+    "title": "Developer - A job that rocks - Roland Golla PHP-Team trainer motivation",
+    "description": "Bandquotes and many songtexts bring us a full bunch of emotion. Pain, love, waiting, heroes, teams, passion, Scrum, Jira, Kanban, education and a lot more - just the life.",
+    "year": "evergreen",
+    "startPageTitle": "Developer - Ein Job der rockt",
+    "startPageDescription": "Warum Software-Entwicklung einer der spannendsten Berufe unserer Zeit ist.",
+    "custom": true
+  },
+  {
+    "id": "bandquotes-for-developer",
+    "title": "Bandquotes for developer - Talk Never Code Alone Roland Golla",
+    "description": "What bandquotes describe a web developers life - Talk by Roland Golla about the life as a developer",
+    "year": "evergreen",
+    "startPageTitle": "Bandquotes für Developer",
+    "startPageDescription": "Inspirierende Zitate aus der Musikwelt mit Bezug zur Softwareentwicklung.",
+    "custom": true
+  },
+  {
+    "id": "softwarequalitaet-gesundheit-v1",
+    "title": "Software Qualität === Gesundheit - Talk Entwicklungshilfe NRW",
+    "description": "Schlechte Software Qualität wirkt sich negativ auf die Gesundheut aus und automatisierte Prozesse bringen einen Wettbewerbsvorteil - Keynote Talk Clean Code Days",
+    "year": "evergreen",
+    "startPageTitle": "Softwarequalität === Gesundheit V1",
+    "startPageDescription": "Der Zusammenhang zwischen Code-Qualität und Entwickler-Wohlbefinden.",
+    "custom": true
+  },
+  {
+    "id": "softwarequalitaet-gesundheit-v2",
+    "title": "Softwarequalität === Gesundheit V2",
+    "description": "Lebhafter Talk von Roland Golla über den Zusammenhang von Softwarequalität und Gesundheit",
+    "year": "evergreen",
+    "startPageTitle": "Softwarequalität === Gesundheit V2",
+    "startPageDescription": "Erweiterte Version: Clean Code, Testing und Work-Life-Balance in der Praxis.",
+    "custom": true
+  },
+  {
+    "id": "blog-social-media",
+    "title": "Blog und Social Media Workshop - Roland Golla PHP-Trainer",
+    "description": "",
+    "year": "evergreen",
+    "startPageTitle": "Blog & Social Media",
+    "startPageDescription": "Blog, Social Media und Content Marketing Workshop.",
+    "custom": true,
+    "hidden": true
+  },
+  {
+    "id": "otto-nca-event",
+    "title": "OTTO #NCAEvent - Marketing & Content",
+    "description": "",
+    "year": "evergreen",
+    "startPageTitle": "OTTO NCA Event",
+    "startPageDescription": "OTTO NCA Event - Marketing & Content",
+    "custom": true,
+    "hidden": true
+  },
+  {
+    "id": "nca-hr-001",
+    "title": "NCA Meet HR - IT-Stellenausschreibungen",
+    "description": "NCA Meet HR - Eine Präsentation über positive und negative Aspekte von IT-Stellenausschreibungen von Never Code Alone.",
+    "year": "evergreen",
+    "startPageTitle": "NCA Meet HR",
+    "startPageDescription": "IT-Stellenausschreibungen - Positive und negative Aspekte.",
+    "custom": true,
+    "hidden": true
+  }
+]
