@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title><%= talk.title %></title>
+    <meta name="description" content="<%= talk.description %>"/>
+    <link rel="shortcut icon" href="content/images/favicon.ico" type="image/x-icon" />
+    <link rel="icon" href="content/images/favicon.ico" type="image/x-icon" />
+    <script type="text/javascript">
+      var _paq = _paq || [];
+      _paq.push(["trackPageView"]);
+      _paq.push(["enableLinkTracking"]);
+      (function () {
+        var u = "//stats.nevercodealone.de/";
+        _paq.push(["setTrackerUrl", u + "piwik.php"]);
+        _paq.push(["setSiteId", "6"]);
+        var d = document,
+          g = d.createElement("script"),
+          s = d.getElementsByTagName("script")[0];
+        g.type = "text/javascript";
+        g.async = true;
+        g.defer = true;
+        g.src = u + "piwik.js";
+        s.parentNode.insertBefore(g, s);
+      })();
+    </script>
+</head>
+<body>
+
+<div class="reveal">
+    <div class="slides">
+    <% talk.groups.forEach(function(group) { %>
+        <section>
+        <% group.forEach(function(slideIdx) { %>
+            <%
+              var slide = talk.slides[slideIdx];
+              var imgPath = slide.rootImages
+                ? 'content/images/' + slide.image
+                : 'content/images/' + slide.image;
+            %>
+            <section
+                data-background="<%= imgPath %>"
+                data-background-repeat="no-repeat"
+                data-background-size="contain"
+                data-background-position="center top"
+            >
+                <aside class="notes">
+                    <ul>
+                        <li></li>
+                    </ul>
+                </aside>
+            </section>
+        <% }); %>
+        </section>
+    <% }); %>
+    </div>
+</div>
+</body>
+</html>
