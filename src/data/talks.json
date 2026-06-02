@@ -1,5 +1,14 @@
 [
   {
+    "id": "chatbot-wahrheit",
+    "title": "Chatbots - Die Erwartung vs. Die Wahrheit - Never Code Alone",
+    "description": "Chatbots in der Praxis - Was erwartet wird, was wirklich passiert und wie es besser geht",
+    "year": 2026,
+    "startPageTitle": "Chatbots - Die Erwartung vs. Die Wahrheit",
+    "startPageDescription": "Eine Forschungsreise durch die Realit\u00e4t von Chatbots - Erwartungen, Datenlagen, Gefahren und wie es besser geht.",
+    "custom": true
+  },
+  {
     "id": "dead-internet",
     "title": "Dead Internet Theorie - A Practical Guide - Never Code Alone",
     "description": "Dead Internet Theorie - Ein praktischer Leitfaden für Entwickler",
