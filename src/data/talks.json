@@ -5,7 +5,7 @@
     "description": "Chatbots in der Praxis - Was erwartet wird, was wirklich passiert und wie es besser geht",
     "year": 2026,
     "startPageTitle": "Chatbots - Die Erwartung vs. Die Wahrheit",
-    "startPageDescription": "Eine Forschungsreise durch die Realit\u00e4t von Chatbots - Erwartungen, Datenlagen, Gefahren und wie es besser geht.",
+    "startPageDescription": "Eine Forschungsreise durch die Realität von Chatbots - Erwartungen, Datenlagen, Gefahren und wie es besser geht.",
     "custom": true
   },
   {
@@ -16,17 +16,54 @@
     "startPageTitle": "Dead Internet Theorie - A Practical Guide",
     "startPageDescription": "Ein praktischer Leitfaden zur Dead Internet Theorie - Bots, KI-generierte Inhalte und die Zukunft des Internets verstehen.",
     "slides": [
-      { "image": "dead-internet/dead-internet-1.jpg" },
-      { "image": "kill-bugs-roland-golla.jpg", "rootImages": true },
-      { "image": "dead-internet/dead-internet-2.jpg" },
-      { "image": "dead-internet/dead-internet-3.jpg" },
-      { "image": "dead-internet/dead-internet-4.jpg" },
-      { "image": "dead-internet/dead-internet-5.jpg" },
-      { "image": "dead-internet/dead-internet-6.jpg" },
-      { "image": "dead-internet/dead-internet-7.jpg" },
-      { "image": "dead-internet/dead-internet-8.jpg" }
+      {
+        "image": "dead-internet/dead-internet-1.jpg"
+      },
+      {
+        "image": "kill-bugs-roland-golla.jpg",
+        "rootImages": true
+      },
+      {
+        "image": "dead-internet/dead-internet-2.jpg"
+      },
+      {
+        "image": "dead-internet/dead-internet-3.jpg"
+      },
+      {
+        "image": "dead-internet/dead-internet-4.jpg"
+      },
+      {
+        "image": "dead-internet/dead-internet-5.jpg"
+      },
+      {
+        "image": "dead-internet/dead-internet-6.jpg"
+      },
+      {
+        "image": "dead-internet/dead-internet-7.jpg"
+      },
+      {
+        "image": "dead-internet/dead-internet-8.jpg"
+      }
     ],
-    "groups": [[0], [1], [2, 3, 4, 5, 6, 7], [8]]
+    "groups": [
+      [
+        0
+      ],
+      [
+        1
+      ],
+      [
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      [
+        8
+      ]
+    ]
   },
   {
     "id": "vibe-coding",
@@ -36,20 +73,72 @@
     "startPageTitle": "Vibe Coding für Profis",
     "startPageDescription": "Moderne Entwicklungsmethoden und Coding-Kultur - Wie professionelles Vibe Coding deine Produktivität steigert.",
     "slides": [
-      { "image": "vibe-coding/vibe-coding-1.jpg" },
-      { "image": "vibe-coding/vibe-coding-2.jpg" },
-      { "image": "vibe-coding/vibe-coding-3.jpg" },
-      { "image": "vibe-coding/vibe-coding-4.jpg" },
-      { "image": "vibe-coding/vibe-coding-5.jpg" },
-      { "image": "vibe-coding/vibe-coding-6.jpg" },
-      { "image": "vibe-coding/vibe-coding-7.jpg" },
-      { "image": "vibe-coding/vibe-coding-8.jpg" },
-      { "image": "vibe-coding/vibe-coding-9.jpg" },
-      { "image": "vibe-coding/vibe-coding-10.jpg" },
-      { "image": "vibe-coding/vibe-coding-11.jpg" },
-      { "image": "vibe-coding/vibe-coding-12.jpg" }
+      {
+        "image": "vibe-coding/vibe-coding-1.jpg"
+      },
+      {
+        "image": "vibe-coding/vibe-coding-2.jpg"
+      },
+      {
+        "image": "vibe-coding/vibe-coding-3.jpg"
+      },
+      {
+        "image": "vibe-coding/vibe-coding-4.jpg"
+      },
+      {
+        "image": "vibe-coding/vibe-coding-5.jpg"
+      },
+      {
+        "image": "vibe-coding/vibe-coding-6.jpg"
+      },
+      {
+        "image": "vibe-coding/vibe-coding-7.jpg"
+      },
+      {
+        "image": "vibe-coding/vibe-coding-8.jpg"
+      },
+      {
+        "image": "vibe-coding/vibe-coding-9.jpg"
+      },
+      {
+        "image": "vibe-coding/vibe-coding-10.jpg"
+      },
+      {
+        "image": "vibe-coding/vibe-coding-11.jpg"
+      },
+      {
+        "image": "vibe-coding/vibe-coding-12.jpg"
+      }
     ],
-    "groups": [[0], [1, 2, 3, 4, 5, 6, 7, 8, 9, 10], [11]]
+    "groups": [
+      [
+        0
+      ],
+      [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      [
+        11
+      ]
+    ]
+  },
+  {
+    "id": "vibe-coding-start",
+    "title": "Start Vibe Coding - Warum JavaScript, Astro, Guidelines und CI/CD - Never Code Alone",
+    "description": "Start Vibe Coding - Warum diese Tech-Choices der richtige Weg fuer Marketing-Teams sind",
+    "year": 2026,
+    "startPageTitle": "Start Vibe Coding",
+    "startPageDescription": "Warum JavaScript, Astro, Guidelines und CI/CD Pipelines der richtige Weg ins Vibe Coding sind.",
+    "custom": true
   },
   {
     "id": "ki-karriereboost",
@@ -59,18 +148,55 @@
     "startPageTitle": "KI als Karriereboost",
     "startPageDescription": "Künstliche Intelligenz als Karriere-Booster für Entwickler - Wie KI deine berufliche Entwicklung beschleunigt.",
     "slides": [
-      { "image": "ki-karriereboost/ki-karriereboost-1.jpg" },
-      { "image": "ki-karriereboost/ai-gpt.jpg" },
-      { "image": "ki-karriereboost/ki-karriereboost-2.jpg" },
-      { "image": "ki-karriereboost/ki-karriereboost-3.jpg" },
-      { "image": "ki-karriereboost/ki-karriereboost-4.jpg" },
-      { "image": "ki-karriereboost/ki-karriereboost-5.jpg" },
-      { "image": "ki-karriereboost/ki-karriereboost-6.jpg" },
-      { "image": "ki-karriereboost/ki-karriereboost-7.jpg" },
-      { "image": "ki-karriereboost/ki-karriereboost-8.jpg" },
-      { "image": "ki-karriereboost/ki-karriereboost-9.jpg" }
+      {
+        "image": "ki-karriereboost/ki-karriereboost-1.jpg"
+      },
+      {
+        "image": "ki-karriereboost/ai-gpt.jpg"
+      },
+      {
+        "image": "ki-karriereboost/ki-karriereboost-2.jpg"
+      },
+      {
+        "image": "ki-karriereboost/ki-karriereboost-3.jpg"
+      },
+      {
+        "image": "ki-karriereboost/ki-karriereboost-4.jpg"
+      },
+      {
+        "image": "ki-karriereboost/ki-karriereboost-5.jpg"
+      },
+      {
+        "image": "ki-karriereboost/ki-karriereboost-6.jpg"
+      },
+      {
+        "image": "ki-karriereboost/ki-karriereboost-7.jpg"
+      },
+      {
+        "image": "ki-karriereboost/ki-karriereboost-8.jpg"
+      },
+      {
+        "image": "ki-karriereboost/ki-karriereboost-9.jpg"
+      }
     ],
-    "groups": [[0], [1, 2, 3, 4, 5, 6, 7, 8], [9]]
+    "groups": [
+      [
+        0
+      ],
+      [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      [
+        9
+      ]
+    ]
   },
   {
     "id": "ai-keynote",
@@ -80,18 +206,69 @@
     "startPageTitle": "AI Keynote",
     "startPageDescription": "Künstliche Intelligenz in der Softwareentwicklung - Chancen, Herausforderungen und praktische Anwendungen.",
     "slides": [
-      { "image": "ai-content/ai-keynote-1.jpg" },
-      { "image": "ai-content/ai-keynote-2.jpg" },
-      { "image": "ai-content/ai-keynote-3.jpg" },
-      { "image": "ai-content/ai-keynote-4.jpg" },
-      { "image": "ai-content/ai-keynote-5.jpg" },
-      { "image": "ai-content/ai-keynote-6.jpg" },
-      { "image": "ai-content/ai-keynote-7.jpg" },
-      { "image": "ai-content/ai-keynote-8.jpg" },
-      { "image": "ai-content/ai-keynote-9.jpg" },
-      { "image": "ai-content/ai-keynote-10.jpg" }
+      {
+        "image": "ai-content/ai-keynote-1.jpg"
+      },
+      {
+        "image": "ai-content/ai-keynote-2.jpg"
+      },
+      {
+        "image": "ai-content/ai-keynote-3.jpg"
+      },
+      {
+        "image": "ai-content/ai-keynote-4.jpg"
+      },
+      {
+        "image": "ai-content/ai-keynote-5.jpg"
+      },
+      {
+        "image": "ai-content/ai-keynote-6.jpg"
+      },
+      {
+        "image": "ai-content/ai-keynote-7.jpg"
+      },
+      {
+        "image": "ai-content/ai-keynote-8.jpg"
+      },
+      {
+        "image": "ai-content/ai-keynote-9.jpg"
+      },
+      {
+        "image": "ai-content/ai-keynote-10.jpg"
+      }
     ],
-    "groups": [[0], [1], [2], [3], [4], [5], [6], [7], [8], [9]]
+    "groups": [
+      [
+        0
+      ],
+      [
+        1
+      ],
+      [
+        2
+      ],
+      [
+        3
+      ],
+      [
+        4
+      ],
+      [
+        5
+      ],
+      [
+        6
+      ],
+      [
+        7
+      ],
+      [
+        8
+      ],
+      [
+        9
+      ]
+    ]
   },
   {
     "id": "accessibility-talk",
@@ -101,19 +278,75 @@
     "startPageTitle": "Webdesign Accessibility",
     "startPageDescription": "Barrierefreies Webdesign - Best Practices für zugängliche und inklusive Web-Anwendungen.",
     "slides": [
-      { "image": "webdesign-accessibility/accessibility-talk-roland-golla-1.jpg" },
-      { "image": "webdesign-accessibility/accessibility-talk-roland-golla-2.jpg" },
-      { "image": "webdesign-accessibility/accessibility-talk-roland-golla-3.jpg" },
-      { "image": "webdesign-accessibility/accessibility-talk-roland-golla-4.jpg" },
-      { "image": "webdesign-accessibility/accessibility-talk-roland-golla-5.jpg" },
-      { "image": "webdesign-accessibility/accessibility-talk-roland-golla-6.jpg" },
-      { "image": "webdesign-accessibility/accessibility-talk-roland-golla-7.jpg" },
-      { "image": "webdesign-accessibility/accessibility-talk-roland-golla-8.jpg" },
-      { "image": "webdesign-accessibility/accessibility-talk-roland-golla-9.jpg" },
-      { "image": "webdesign-accessibility/accessibility-talk-roland-golla-10.jpg" },
-      { "image": "webdesign-accessibility/accessibility-talk-roland-golla-11.jpg" }
+      {
+        "image": "webdesign-accessibility/accessibility-talk-roland-golla-1.jpg"
+      },
+      {
+        "image": "webdesign-accessibility/accessibility-talk-roland-golla-2.jpg"
+      },
+      {
+        "image": "webdesign-accessibility/accessibility-talk-roland-golla-3.jpg"
+      },
+      {
+        "image": "webdesign-accessibility/accessibility-talk-roland-golla-4.jpg"
+      },
+      {
+        "image": "webdesign-accessibility/accessibility-talk-roland-golla-5.jpg"
+      },
+      {
+        "image": "webdesign-accessibility/accessibility-talk-roland-golla-6.jpg"
+      },
+      {
+        "image": "webdesign-accessibility/accessibility-talk-roland-golla-7.jpg"
+      },
+      {
+        "image": "webdesign-accessibility/accessibility-talk-roland-golla-8.jpg"
+      },
+      {
+        "image": "webdesign-accessibility/accessibility-talk-roland-golla-9.jpg"
+      },
+      {
+        "image": "webdesign-accessibility/accessibility-talk-roland-golla-10.jpg"
+      },
+      {
+        "image": "webdesign-accessibility/accessibility-talk-roland-golla-11.jpg"
+      }
     ],
-    "groups": [[0], [1], [2], [3], [4], [5], [6], [7], [8], [9], [10]]
+    "groups": [
+      [
+        0
+      ],
+      [
+        1
+      ],
+      [
+        2
+      ],
+      [
+        3
+      ],
+      [
+        4
+      ],
+      [
+        5
+      ],
+      [
+        6
+      ],
+      [
+        7
+      ],
+      [
+        8
+      ],
+      [
+        9
+      ],
+      [
+        10
+      ]
+    ]
   },
   {
     "id": "freelancer-startup",
